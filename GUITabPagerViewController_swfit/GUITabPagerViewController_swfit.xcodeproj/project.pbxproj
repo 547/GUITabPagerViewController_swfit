@@ -14,7 +14,39 @@
 		569D5EAE1E5E46DF00855BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569D5EAC1E5E46DF00855BCB /* LaunchScreen.storyboard */; };
 		569D5EBB1E5E471D00855BCB /* GUITabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */; };
 		569D5EBC1E5E471D00855BCB /* GUITabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */; };
+		569D5EC61E5E493F00855BCB /* GUITabPagerViewControllerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D5EC41E5E493F00855BCB /* GUITabPagerViewControllerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569D5EC91E5E493F00855BCB /* GUITabPagerViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569D5EC21E5E493F00855BCB /* GUITabPagerViewController.framework */; };
+		569D5ECA1E5E493F00855BCB /* GUITabPagerViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 569D5EC21E5E493F00855BCB /* GUITabPagerViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		569D5ECF1E5E495000855BCB /* GUITabPagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D5EB71E5E471D00855BCB /* GUITabPagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569D5ED01E5E495000855BCB /* GUITabScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D5EB91E5E471D00855BCB /* GUITabScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569D5ED11E5E495000855BCB /* GUITabPagerViewController_swfit-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D5EB61E5E471C00855BCB /* GUITabPagerViewController_swfit-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569D5ED21E5E51C400855BCB /* GUITabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */; };
+		569D5ED31E5E51C400855BCB /* GUITabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		569D5EC71E5E493F00855BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569D5E981E5E46DF00855BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569D5EC11E5E493F00855BCB;
+			remoteInfo = GUITabPagerViewControllerFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		569D5ECE1E5E493F00855BCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				569D5ECA1E5E493F00855BCB /* GUITabPagerViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUITabPagerViewController_swfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +61,21 @@
 		569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUITabPagerViewController.m; sourceTree = "<group>"; };
 		569D5EB91E5E471D00855BCB /* GUITabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUITabScrollView.h; sourceTree = "<group>"; };
 		569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUITabScrollView.m; sourceTree = "<group>"; };
+		569D5EC21E5E493F00855BCB /* GUITabPagerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GUITabPagerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569D5EC41E5E493F00855BCB /* GUITabPagerViewControllerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUITabPagerViewControllerFramework.h; sourceTree = "<group>"; };
+		569D5EC51E5E493F00855BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		569D5E9D1E5E46DF00855BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D5EC91E5E493F00855BCB /* GUITabPagerViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569D5EBE1E5E493F00855BCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +90,7 @@
 			children = (
 				569D5EB51E5E470D00855BCB /* GUITabPagerViewController */,
 				569D5EA21E5E46DF00855BCB /* GUITabPagerViewController_swfit */,
+				569D5EC31E5E493F00855BCB /* GUITabPagerViewControllerFramework */,
 				569D5EA11E5E46DF00855BCB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */,
+				569D5EC21E5E493F00855BCB /* GUITabPagerViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +129,30 @@
 			path = GUITabPagerViewController;
 			sourceTree = "<group>";
 		};
+		569D5EC31E5E493F00855BCB /* GUITabPagerViewControllerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				569D5EC41E5E493F00855BCB /* GUITabPagerViewControllerFramework.h */,
+				569D5EC51E5E493F00855BCB /* Info.plist */,
+			);
+			path = GUITabPagerViewControllerFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		569D5EBF1E5E493F00855BCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D5EC61E5E493F00855BCB /* GUITabPagerViewControllerFramework.h in Headers */,
+				569D5ECF1E5E495000855BCB /* GUITabPagerViewController.h in Headers */,
+				569D5ED01E5E495000855BCB /* GUITabScrollView.h in Headers */,
+				569D5ED11E5E495000855BCB /* GUITabPagerViewController_swfit-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		569D5E9F1E5E46DF00855BCB /* GUITabPagerViewController_swfit */ = {
@@ -94,15 +162,35 @@
 				569D5E9C1E5E46DF00855BCB /* Sources */,
 				569D5E9D1E5E46DF00855BCB /* Frameworks */,
 				569D5E9E1E5E46DF00855BCB /* Resources */,
+				569D5ECE1E5E493F00855BCB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				569D5EC81E5E493F00855BCB /* PBXTargetDependency */,
 			);
 			name = GUITabPagerViewController_swfit;
 			productName = GUITabPagerViewController_swfit;
 			productReference = 569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		569D5EC11E5E493F00855BCB /* GUITabPagerViewControllerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569D5ECD1E5E493F00855BCB /* Build configuration list for PBXNativeTarget "GUITabPagerViewControllerFramework" */;
+			buildPhases = (
+				569D5EBD1E5E493F00855BCB /* Sources */,
+				569D5EBE1E5E493F00855BCB /* Frameworks */,
+				569D5EBF1E5E493F00855BCB /* Headers */,
+				569D5EC01E5E493F00855BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUITabPagerViewControllerFramework;
+			productName = GUITabPagerViewControllerFramework;
+			productReference = 569D5EC21E5E493F00855BCB /* GUITabPagerViewController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -117,6 +205,10 @@
 					569D5E9F1E5E46DF00855BCB = {
 						CreatedOnToolsVersion = 8.2;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					569D5EC11E5E493F00855BCB = {
+						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				569D5E9F1E5E46DF00855BCB /* GUITabPagerViewController_swfit */,
+				569D5EC11E5E493F00855BCB /* GUITabPagerViewControllerFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +240,13 @@
 				569D5EAE1E5E46DF00855BCB /* LaunchScreen.storyboard in Resources */,
 				569D5EAB1E5E46DF00855BCB /* Assets.xcassets in Resources */,
 				569D5EA91E5E46DF00855BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569D5EC01E5E493F00855BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +264,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		569D5EBD1E5E493F00855BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D5ED21E5E51C400855BCB /* GUITabPagerViewController.m in Sources */,
+				569D5ED31E5E51C400855BCB /* GUITabScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		569D5EC81E5E493F00855BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 569D5EC11E5E493F00855BCB /* GUITabPagerViewControllerFramework */;
+			targetProxy = 569D5EC71E5E493F00855BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		569D5EA71E5E46DF00855BCB /* Main.storyboard */ = {
@@ -308,6 +425,50 @@
 			};
 			name = Release;
 		};
+		569D5ECB1E5E493F00855BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GUITabPagerViewControllerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SevenWang.GUITabPagerViewControllerFramework;
+				PRODUCT_MODULE_NAME = GUITabPagerViewController;
+				PRODUCT_NAME = GUITabPagerViewController;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		569D5ECC1E5E493F00855BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GUITabPagerViewControllerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SevenWang.GUITabPagerViewControllerFramework;
+				PRODUCT_MODULE_NAME = GUITabPagerViewController;
+				PRODUCT_NAME = GUITabPagerViewController;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -325,6 +486,15 @@
 			buildConfigurations = (
 				569D5EB31E5E46DF00855BCB /* Debug */,
 				569D5EB41E5E46DF00855BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569D5ECD1E5E493F00855BCB /* Build configuration list for PBXNativeTarget "GUITabPagerViewControllerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569D5ECB1E5E493F00855BCB /* Debug */,
+				569D5ECC1E5E493F00855BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

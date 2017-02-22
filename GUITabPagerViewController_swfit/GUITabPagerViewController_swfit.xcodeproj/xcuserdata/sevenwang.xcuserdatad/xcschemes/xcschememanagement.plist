@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GUITabPagerViewController_swfit.xcscheme</key>
+		<key>GUITabPagerViewControllerFramework.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GUITabPagerViewController_swfit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>569D5E9F1E5E46DF00855BCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>569D5EC11E5E493F00855BCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

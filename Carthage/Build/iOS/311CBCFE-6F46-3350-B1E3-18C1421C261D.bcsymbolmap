@@ -1,0 +1,111 @@
+BCSymbolMap Version: 2.0
+-[GUITabPagerViewController viewDidLoad]
+-[GUITabPagerViewController pageViewController:viewControllerBeforeViewController:]
+-[GUITabPagerViewController pageViewController:viewControllerAfterViewController:]
+-[GUITabPagerViewController pageViewController:willTransitionToViewControllers:]
+-[GUITabPagerViewController pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]
+-[GUITabPagerViewController tabScrollView:didSelectTabAtIndex:]
+___63-[GUITabPagerViewController tabScrollView:didSelectTabAtIndex:]_block_invoke
+___63-[GUITabPagerViewController tabScrollView:didSelectTabAtIndex:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[GUITabPagerViewController reloadData]
+-[GUITabPagerViewController reloadTabs]
+-[GUITabPagerViewController selectTabbarIndex:]
+-[GUITabPagerViewController selectTabbarIndex:animation:]
+-[GUITabPagerViewController setupUI]
+-[GUITabPagerViewController addTabsFromViews]
+-[GUITabPagerViewController addTabsFromTitles]
+-[GUITabPagerViewController dataSource]
+-[GUITabPagerViewController setDataSource:]
+-[GUITabPagerViewController delegate]
+-[GUITabPagerViewController setDelegate:]
+-[GUITabPagerViewController pageViewController]
+-[GUITabPagerViewController setPageViewController:]
+-[GUITabPagerViewController header]
+-[GUITabPagerViewController setHeader:]
+-[GUITabPagerViewController selectedIndex]
+-[GUITabPagerViewController setSelectedIndex:]
+-[GUITabPagerViewController viewControllers]
+-[GUITabPagerViewController setViewControllers:]
+-[GUITabPagerViewController tabTitles]
+-[GUITabPagerViewController setTabTitles:]
+-[GUITabPagerViewController headerColor]
+-[GUITabPagerViewController setHeaderColor:]
+-[GUITabPagerViewController tabBackgroundColor]
+-[GUITabPagerViewController setTabBackgroundColor:]
+-[GUITabPagerViewController headerHeight]
+-[GUITabPagerViewController setHeaderHeight:]
+-[GUITabPagerViewController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.68
+_OBJC_IVAR_$_GUITabPagerViewController._dataSource
+_OBJC_IVAR_$_GUITabPagerViewController._delegate
+_OBJC_IVAR_$_GUITabPagerViewController._pageViewController
+_OBJC_IVAR_$_GUITabPagerViewController._header
+_OBJC_IVAR_$_GUITabPagerViewController._selectedIndex
+_OBJC_IVAR_$_GUITabPagerViewController._viewControllers
+_OBJC_IVAR_$_GUITabPagerViewController._tabTitles
+_OBJC_IVAR_$_GUITabPagerViewController._headerColor
+_OBJC_IVAR_$_GUITabPagerViewController._tabBackgroundColor
+_OBJC_IVAR_$_GUITabPagerViewController._headerHeight
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_GUITabScrollDelegate
+l_OBJC_LABEL_PROTOCOL_$_GUITabScrollDelegate
+l_OBJC_PROTOCOL_$_UIPageViewControllerDataSource
+l_OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDataSource
+l_OBJC_PROTOCOL_$_UIPageViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIPageViewControllerDelegate
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/sevenwang/Desktop/SwiftTest/GUITabPagerViewController_swfit/GUITabPagerViewController_swfit/GUITabPagerViewController/GUITabPagerViewController.m
+/Users/sevenwang/Desktop/SwiftTest/GUITabPagerViewController_swfit/GUITabPagerViewController_swfit
+/Users/sevenwang/Desktop/SwiftTest/GUITabPagerViewController_swfit/GUITabPagerViewController_swfit/GUITabPagerViewController/GUITabPagerViewController.h
+__destroy_helper_block_
+__copy_helper_block_
+__63-[GUITabPagerViewController tabScrollView:didSelectTabAtIndex:]_block_invoke_2
+__63-[GUITabPagerViewController tabScrollView:didSelectTabAtIndex:]_block_invoke
+-[GUITabScrollView initWithFrame:tabViews:color:selectedTabIndex:]
+-[GUITabScrollView initWithFrame:tabViews:color:]
+-[GUITabScrollView setFrame:]
+-[GUITabScrollView updateConstraints]
+-[GUITabScrollView selectTabAtIndex:]
+-[GUITabScrollView selectTabAtIndex:animated:]
+___46-[GUITabScrollView selectTabAtIndex:animated:]_block_invoke
+-[GUITabScrollView tabTapHandler:]
+-[GUITabScrollView addConstraintsToContentView:bottomLine:]
+-[GUITabScrollView addTabsFrom:toContentView:]
+-[GUITabScrollView addIndicatorsToContentView:withColor:]
+-[GUITabScrollView scrollToSelectedTab]
+-[GUITabScrollView replaceConstraint:withNewToItem:]
+-[GUITabScrollView tabScrollDelegate]
+-[GUITabScrollView setTabScrollDelegate:]
+-[GUITabScrollView tabViews]
+-[GUITabScrollView setTabViews:]
+-[GUITabScrollView tabsView]
+-[GUITabScrollView setTabsView:]
+-[GUITabScrollView tabIndicator]
+-[GUITabScrollView setTabIndicator:]
+-[GUITabScrollView tabsLeadingConstraint]
+-[GUITabScrollView setTabsLeadingConstraint:]
+-[GUITabScrollView tabsTrailingConstraint]
+-[GUITabScrollView setTabsTrailingConstraint:]
+-[GUITabScrollView indicatorWidthConstraint]
+-[GUITabScrollView setIndicatorWidthConstraint:]
+-[GUITabScrollView indicatorCenterConstraint]
+-[GUITabScrollView setIndicatorCenterConstraint:]
+-[GUITabScrollView .cxx_destruct]
+_OBJC_IVAR_$_GUITabScrollView._tabScrollDelegate
+_OBJC_IVAR_$_GUITabScrollView._tabViews
+_OBJC_IVAR_$_GUITabScrollView._tabsView
+_OBJC_IVAR_$_GUITabScrollView._tabIndicator
+_OBJC_IVAR_$_GUITabScrollView._tabsLeadingConstraint
+_OBJC_IVAR_$_GUITabScrollView._tabsTrailingConstraint
+_OBJC_IVAR_$_GUITabScrollView._indicatorWidthConstraint
+_OBJC_IVAR_$_GUITabScrollView._indicatorCenterConstraint
+/Users/sevenwang/Desktop/SwiftTest/GUITabPagerViewController_swfit/GUITabPagerViewController_swfit/GUITabPagerViewController/GUITabScrollView.m
+/Users/sevenwang/Desktop/SwiftTest/GUITabPagerViewController_swfit/GUITabPagerViewController_swfit/GUITabPagerViewController/GUITabScrollView.h
+__46-[GUITabScrollView selectTabAtIndex:animated:]_block_invoke
+/Users/sevenwang/Library/Developer/Xcode/DerivedData/GUITabPagerViewController_swfit-aqfuqwneurhdlaalkmxvhxwbpgrh/Build/Intermediates/GUITabPagerViewController_swfit.build/Release-iphoneos/GUITabPagerViewControllerFramework.build/DerivedSources/GUITabPagerViewController_vers.c
