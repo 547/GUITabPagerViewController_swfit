@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		569D5EA41E5E46DF00855BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EA31E5E46DF00855BCB /* AppDelegate.swift */; };
+		569D5EA61E5E46DF00855BCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EA51E5E46DF00855BCB /* ViewController.swift */; };
+		569D5EA91E5E46DF00855BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569D5EA71E5E46DF00855BCB /* Main.storyboard */; };
+		569D5EAB1E5E46DF00855BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569D5EAA1E5E46DF00855BCB /* Assets.xcassets */; };
+		569D5EAE1E5E46DF00855BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569D5EAC1E5E46DF00855BCB /* LaunchScreen.storyboard */; };
+		569D5EBB1E5E471D00855BCB /* GUITabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */; };
+		569D5EBC1E5E471D00855BCB /* GUITabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUITabPagerViewController_swfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		569D5EA31E5E46DF00855BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		569D5EA51E5E46DF00855BCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		569D5EA81E5E46DF00855BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569D5EAA1E5E46DF00855BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569D5EAD1E5E46DF00855BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		569D5EAF1E5E46DF00855BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569D5EB61E5E471C00855BCB /* GUITabPagerViewController_swfit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GUITabPagerViewController_swfit-Bridging-Header.h"; sourceTree = "<group>"; };
+		569D5EB71E5E471D00855BCB /* GUITabPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUITabPagerViewController.h; sourceTree = "<group>"; };
+		569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUITabPagerViewController.m; sourceTree = "<group>"; };
+		569D5EB91E5E471D00855BCB /* GUITabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUITabScrollView.h; sourceTree = "<group>"; };
+		569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUITabScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569D5E9D1E5E46DF00855BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569D5E971E5E46DF00855BCB = {
+			isa = PBXGroup;
+			children = (
+				569D5EB51E5E470D00855BCB /* GUITabPagerViewController */,
+				569D5EA21E5E46DF00855BCB /* GUITabPagerViewController_swfit */,
+				569D5EA11E5E46DF00855BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		569D5EA11E5E46DF00855BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569D5EA21E5E46DF00855BCB /* GUITabPagerViewController_swfit */ = {
+			isa = PBXGroup;
+			children = (
+				569D5EA31E5E46DF00855BCB /* AppDelegate.swift */,
+				569D5EA51E5E46DF00855BCB /* ViewController.swift */,
+				569D5EA71E5E46DF00855BCB /* Main.storyboard */,
+				569D5EAA1E5E46DF00855BCB /* Assets.xcassets */,
+				569D5EAC1E5E46DF00855BCB /* LaunchScreen.storyboard */,
+				569D5EAF1E5E46DF00855BCB /* Info.plist */,
+			);
+			path = GUITabPagerViewController_swfit;
+			sourceTree = "<group>";
+		};
+		569D5EB51E5E470D00855BCB /* GUITabPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				569D5EB71E5E471D00855BCB /* GUITabPagerViewController.h */,
+				569D5EB81E5E471D00855BCB /* GUITabPagerViewController.m */,
+				569D5EB91E5E471D00855BCB /* GUITabScrollView.h */,
+				569D5EBA1E5E471D00855BCB /* GUITabScrollView.m */,
+				569D5EB61E5E471C00855BCB /* GUITabPagerViewController_swfit-Bridging-Header.h */,
+			);
+			path = GUITabPagerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569D5E9F1E5E46DF00855BCB /* GUITabPagerViewController_swfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569D5EB21E5E46DF00855BCB /* Build configuration list for PBXNativeTarget "GUITabPagerViewController_swfit" */;
+			buildPhases = (
+				569D5E9C1E5E46DF00855BCB /* Sources */,
+				569D5E9D1E5E46DF00855BCB /* Frameworks */,
+				569D5E9E1E5E46DF00855BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUITabPagerViewController_swfit;
+			productName = GUITabPagerViewController_swfit;
+			productReference = 569D5EA01E5E46DF00855BCB /* GUITabPagerViewController_swfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569D5E981E5E46DF00855BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SevenWang;
+				TargetAttributes = {
+					569D5E9F1E5E46DF00855BCB = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 569D5E9B1E5E46DF00855BCB /* Build configuration list for PBXProject "GUITabPagerViewController_swfit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569D5E971E5E46DF00855BCB;
+			productRefGroup = 569D5EA11E5E46DF00855BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569D5E9F1E5E46DF00855BCB /* GUITabPagerViewController_swfit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569D5E9E1E5E46DF00855BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D5EAE1E5E46DF00855BCB /* LaunchScreen.storyboard in Resources */,
+				569D5EAB1E5E46DF00855BCB /* Assets.xcassets in Resources */,
+				569D5EA91E5E46DF00855BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569D5E9C1E5E46DF00855BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D5EBB1E5E471D00855BCB /* GUITabPagerViewController.m in Sources */,
+				569D5EA61E5E46DF00855BCB /* ViewController.swift in Sources */,
+				569D5EA41E5E46DF00855BCB /* AppDelegate.swift in Sources */,
+				569D5EBC1E5E471D00855BCB /* GUITabScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		569D5EA71E5E46DF00855BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569D5EA81E5E46DF00855BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		569D5EAC1E5E46DF00855BCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569D5EAD1E5E46DF00855BCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		569D5EB01E5E46DF00855BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569D5EB11E5E46DF00855BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		569D5EB31E5E46DF00855BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GUITabPagerViewController_swfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SevenWang.GUITabPagerViewController-swfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GUITabPagerViewController/GUITabPagerViewController_swfit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		569D5EB41E5E46DF00855BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GUITabPagerViewController_swfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SevenWang.GUITabPagerViewController-swfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GUITabPagerViewController/GUITabPagerViewController_swfit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569D5E9B1E5E46DF00855BCB /* Build configuration list for PBXProject "GUITabPagerViewController_swfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569D5EB01E5E46DF00855BCB /* Debug */,
+				569D5EB11E5E46DF00855BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569D5EB21E5E46DF00855BCB /* Build configuration list for PBXNativeTarget "GUITabPagerViewController_swfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569D5EB31E5E46DF00855BCB /* Debug */,
+				569D5EB41E5E46DF00855BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569D5E981E5E46DF00855BCB /* Project object */;
+}
